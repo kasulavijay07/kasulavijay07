@@ -38,33 +38,15 @@
 
 ---
 
-### 🏆 GitHub Achievements
+### 📊 Language Preference
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=kasulavijay07&theme=onedark&margin-w=15&margin-h=15&no-frame=true" alt="GitHub Trophies" />
-  </a>
+  <img src="https://img.shields.io/badge/Java-70%25-orange?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-30%25-blue?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kasulavijay07&show_icons=true&theme=tokyonight&border_radius=10" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kasulavijay07&theme=tokyonight&border_radius=10" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kasulavijay07&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
----
-
-<!-- Optional: Add projects section if you want to link your repos -->
 ### 🚀 Featured Projects
 
 - 🎯 [Fiesta – Event Manager](https://github.com/kasulavijay07/Fiesta)
@@ -74,4 +56,3 @@
 ---
 
 ### 💡 Let's Build Something Awesome Together!
-
