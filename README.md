@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Vijay Vardhan Kasula</h1>
 <h3 align="center">🚀 Full Stack Explorer | 🤖 AI Enthusiast | 💡 Code. Create. Conquer.</h3>
-<!--QUOTE-SECTION:START-->
-> **Today is Monday**  
-> _"Old quote placeholder."_ — Someone
-<!--QUOTE-SECTION:END-->
+<!-- QUOTE-SECTION:START-->
+<!-- > **Today is Monday**   -->
+<!-- > _"Old quote placeholder."_ — Someone -->
+<!--QUOTE-SECTION:END -->
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=kasulavijay07&label=Profile%20views&color=0e75b6&style=flat" alt="kasulavijay07" />
