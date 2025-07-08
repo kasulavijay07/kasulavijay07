@@ -1,8 +1,8 @@
-name: 🗓️ Daily Quote Updater
+name: Update Quote Daily
 
 on:
   schedule:
-    - cron: "0 3 * * *"  # Runs every day at 8:30 AM IST
+    - cron: "0 4 * * *"  # 9:30 AM IST
   workflow_dispatch:
 
 jobs:
@@ -10,27 +10,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: pip install --upgrade pip
+      - name: Run the script
+        run: python .github/scripts/update-readme.py
 
-      - name: Run update script
-        run: python update_readme.py
-
-      - name: Commit and push changes
-        env:
-          PAT: ${{ secrets.PAT }}
+      - name: Push updated README using PAT
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git remote set-url origin https://kasulavijay07:${{ secrets.PAT }}@github.com/kasulavijay07/kasulavijay07.git
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
           git add README.md
-          git commit -m "🔁 updated daily quote" || echo "No changes to commit"
-          git push origin main
+          git commit -m "🔁 daily quote update" || echo "No changes to commit"
+          git push https://kasulavijay07:${{ secrets.PAT }}@github.com/kasulavijay07/kasulavijay07.git HEAD:main
