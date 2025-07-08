@@ -55,11 +55,11 @@
 
 ---
 
-### 🚀 Featured Projects
+<!--### 🚀 Featured Projects
 
 - 🎯 [Fiesta – Event Manager](https://github.com/kasulavijay07/Fiesta)
 - 💼 [JobLink – Job Aggregator](https://github.com/kasulavijay07/JobLink)
-- 🏥 [CareBot – AI Healthcare Chatbot](https://github.com/kasulavijay07/CareBot)
+- 🏥 [CareBot – AI Healthcare Chatbot](https://github.com/kasulavijay07/CareBot)-->
 
 ---
 
