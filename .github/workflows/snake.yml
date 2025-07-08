@@ -24,5 +24,7 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          token: ${{ secrets.PAT }}
+        env:
+          GH_PAT: ${{ secrets.PAT }}
+
 
