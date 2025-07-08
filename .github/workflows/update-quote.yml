@@ -26,4 +26,4 @@ jobs:
           git config user.email "github-actions@github.com"
           git add README.md
           git commit -m "🔁 daily quote update" || echo "No changes to commit"
-          git push https://kasulavijay07:${{ secrets.PAT }}@github.com/kasulavijay07/kasulavijay07.git HEAD:main
+          git push https://kasulavijay07:${{ secrets.PAT2 }}@github.com/kasulavijay07/kasulavijay07.git HEAD:main
