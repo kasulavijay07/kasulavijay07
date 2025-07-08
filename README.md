@@ -5,7 +5,8 @@
   <img src="https://komarev.com/ghpvc/?username=kasulavijay07&label=Profile%20views&color=0e75b6&style=flat" alt="kasulavijay07" />
 </p>
 
-<img src="https://raw.githubusercontent.com/kasulavijay07/contribution-snake/output/github-contribution-grid-snake.svg" />
+![Snake animation](https://github.com/kasulavijay07/kasulavijay07/blob/output/github-contribution-grid-snake.svg)
+
 
 
 ---
